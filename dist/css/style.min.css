@@ -1,0 +1,202 @@
+header {
+  background: url(../../src/img/image/background.jpg) center center/cover no-repeat;
+  height: 1000px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.menu__list {
+  display: flex;
+  list-style-type: none;
+}
+.menu__list-item {
+  margin-left: 40px;
+}
+
+.menu__link {
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: #F8F200;
+}
+
+.header__card {
+  display: flex;
+  align-items: flex-end;
+  float: right;
+  height: 886px;
+}
+
+.card-item {
+  width: 624px;
+  height: 369px;
+  background-color: #F8F200;
+  padding-top: 70px;
+  clip-path: polygon(0 15%, 9% 0, 100% 0, 100% 85%, 91% 100%, 0 100%);
+}
+
+.card__link {
+  max-width: 484px;
+  margin: 0 auto;
+}
+
+.card-text {
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0px 25px 0px;
+  color: #000;
+}
+
+.card__button {
+  padding: 19px 50px;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+}
+
+audio, img {
+  max-width: 100%;
+  height: auto;
+}
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+iframe {
+  border: 0;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+  vertical-align: top;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+button, input, select, textarea {
+  outline: none;
+  border: none;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+  text-align: left;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../../src/fonts/icomoon.eot?5ofu01");
+  src: url("../../src/fonts/icomoon.eot?5ofu01#iefix") format("embedded-opentype"), url("../../src/fonts/icomoon.ttf?5ofu01") format("truetype"), url("fonts/icomoon.woff?5ofu01") format("woff"), url("fonts/icomoon.svg?5ofu01#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Archangelsk";
+  src: url("../../src/fonts/Archangelsk.ttf");
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+
+.icon-instagram:before {
+  content: "\e901";
+}
+
+.icon-twitch:before {
+  content: "\e902";
+}
+
+.icon-twitter:before {
+  content: "\e903";
+}
+
+.icon-vk:before {
+  content: "\e904";
+}
+
+.icon-youtube:before {
+  content: "\e905";
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #F8F200;
+  background-color: #000;
+  cursor: pointer;
+}
